@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .experience-cards,
+  .project-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-buttons {
+    flex-direction: column;
+  }
+}
